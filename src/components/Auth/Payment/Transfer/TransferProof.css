@@ -1,0 +1,83 @@
+.TransferProof{
+    width: 980px;
+    height: 604px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    margin: 40px 0 0 9% ;
+    position: relative;
+}
+.TransferProof-head{
+    text-align: center;
+}
+.TransferProof-head h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #295FA6;
+    padding: 20px 0  0 0;
+}
+.TransferProof-head p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #727171;
+
+}
+.TransferProof-body{
+    display: grid;
+    grid-template-columns: 48% 48%;
+
+}
+.TransferProof-body-2{
+    padding:  10px 0 0 0;
+}
+.TransferProof-body-1-box{
+    width: 350px;
+    height: 380px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin:  30px 0  0 60px;
+    text-align: center;
+}
+.TransferProof-body-1-box i{
+    color: #E5E4E2;
+    font-size: 150px;
+    text-align: center;
+    margin: 20px  0 0 0;
+}
+.TransferProof-body-1-box-p1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A29F9F;
+
+}
+.TransferProof-body-1-box-p2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #766F6F;
+}
+.TransferProof-body-1-box-p2 span{
+    color: rgb(76, 134, 226);
+}
+.transfer-proof-btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.transfer-proof-btn button{
+    margin: 20px;
+}

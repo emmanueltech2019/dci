@@ -1,0 +1,28 @@
+.upgarde-top-box{
+    position: relative;
+}
+.upgrade-tab{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    display: grid;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+}
+.forms-update-upgrade h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #295FA6;
+    padding: 30px 0 30px 31px;
+}
+.forms-update-upgrade-content{
+    padding:  80px 0 30px 25px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 7em;
+    grid-column-gap: 1em;
+}

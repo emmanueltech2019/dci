@@ -1,0 +1,58 @@
+.Services-plans{
+    width: 100vw;
+    height: 150vh;
+    z-index: 200;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 5em;
+    grid-column-gap: 2em;
+    padding:  200px 100px ;
+}
+.Services-plans > div{
+    background-color: #dfeaf1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding:  60px 0  0 0;
+}
+.Services-plans-arrow{
+    background-color: #334e96!important;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.Services-plans ul{
+    padding: 30px;
+}
+.Services-plans ul li{
+    padding: 10px 0;
+}
+.Services-plans-top-banner{
+    width: 80%;
+    height: 80px;
+    background-color: #334e96;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    color: #fff;
+    padding: 10px 15px;
+}
+.Services-plans-top-banner h2{
+    color: #ffffff;
+    font-family: "Heebo", Sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.1em;
+}
+.Services-plans-top-banner span{
+    color: #ffffff;
+    font-family: "IBM Plex Sans Condensed", Sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 1.1em;
+}

@@ -1,0 +1,32 @@
+.showcase-about{
+    /* position: relative; */
+}
+.showcase-about img{
+    width: 100vw;
+    height: 65vh;
+}
+.showcase-about-text-box{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    /* margin: 0% 030% 0% 30%; */
+    padding: 10px 150px;
+    background-color: #334e96;
+}
+.showcase-about-text-box h1{
+    color: #ffffff;
+    font-family: "Heebo", Sans-serif;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 66px;
+}
+.showcase-about-text-box div{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: 85%;
+    left: 430px;
+    background-color: #ff7a53;
+    padding: 5px 50px;
+}

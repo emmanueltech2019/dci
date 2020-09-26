@@ -1,0 +1,164 @@
+.settings-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2em;
+}
+.settings-controls{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2em;
+    height: 300px;
+}
+.settings-controls div{
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #E5E4E2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 130px;
+    height: 140px;
+    text-align: center;
+}
+.settings-controls div i {
+    color: #727171;
+    font-size: 50px;
+    padding: 20px 0 10px 0;
+}
+.settings-controls div span{
+    /* position: absolute;
+    left: 25px;
+    top: 7px; */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #727171;
+}
+.settings-main-part{
+    padding:  100px 50px 0 50px;
+    background-color: #fff;
+    height: 100vh;
+}
+.settings-main-part form{
+    padding:  0 50px 0 50px;
+    background-color: #fff;
+}
+.settings-main-part form h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #295FA6;
+}
+.settings-main-part form input{
+    width: 400px;
+    background-color: #ddd;
+}
+.edit-btn-settings{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FF6F59;
+    padding: 10px  0 0 10px ;
+    cursor: pointer;
+}
+.modal-edit-email{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    left: 900px;
+    top: 250px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 15px;
+}
+.modal-edit-email h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 12px;
+    color: #A29F9F;
+    padding: 10px;
+}
+.modal-edit-email form{
+    background-color: transparent;
+    padding: 20px;
+}
+.modal-edit-email form input{
+    width: 100%;
+}
+.modal-edit-email-text{
+    width: 100%;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 12px;
+    text-align: center;
+
+    color: #766F6F;
+}
+.modal-edit-email-btn{
+    text-align: center;
+
+}
+.modal-edit-email-btn button{
+    margin: 0 20px;
+
+}
+.modal-edit-email-btn button:last-child{
+    background: #295FA6;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    width: 103px;
+    height: 50px;
+    color:#fff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 12px;
+}
+.modal-edit-email-btn button:first-child{
+    background: #295FA6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 103px;
+    height: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 12px;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #D1D0CF;
+
+}
+.close-icon-sett{
+    background: #E5E4E2;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    z-index: 3;
+    float: right;
+    font-size: 30px;
+}

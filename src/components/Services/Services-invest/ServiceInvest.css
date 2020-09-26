@@ -1,0 +1,50 @@
+.serviceInvest{
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:  1fr;
+}
+.serviceInvest-1 img{
+    position: absolute;
+    top: 57vh;
+    left: 70px;
+    width: 42%;
+    height: 100%;
+    z-index: 0;
+}
+.serviceInvest-2{
+    padding:  70px 90px 0 50vw;
+    width: 100%;
+}
+.serviceInvest-2 h1{
+    color: #1c263f;
+    font-family: "Heebo", Sans-serif;
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    line-height: 1.1em;
+    padding: 20px 0;
+}
+.serviceInvest-2 p{
+    color: #1c263f;
+    font-family: "Heebo", Sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    z-index: 1;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.bktb{
+    background-color: #280636;
+    width: 40px;
+    height: 40px;
+    background-color: #280636;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px 5px;
+    z-index: 999;
+}

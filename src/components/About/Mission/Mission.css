@@ -1,0 +1,57 @@
+.mission{
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mission-2{
+    background-color: #334e96;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 4% 4% 4% 4%;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    color: #dfeaf1;
+    font-family: "Heebo", Sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 20px;
+}
+.mission-1 h1{
+    padding: 30px 0;
+    color: #1c263f;
+    font-family: "Heebo", Sans-serif;
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    line-height: 1.1em;
+}
+.mission-1 p{
+    color: #1c263f;
+    font-family: "Heebo", Sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    z-index: 1;
+}
+.btn-wight-bg{
+    background-color: #fff;
+    font-family: "Heebo", Sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    fill: #ff7a53;
+    color: #ff7a53;
+    background-color: rgba(0,0,0,0);
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
+}
+.btn-wight-bg:hover{
+    color: #ffffff;
+    background-color: #ff7a53;
+    animation-name: elementor-animation-bob-float,elementor-animation-bob;
+    animation-duration: .3s,1.5s;
+    animation-delay: 0s,.3s;
+    animation-timing-function: ease-out,ease-in-out;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards;
+    animation-direction: normal,alternate;
+}

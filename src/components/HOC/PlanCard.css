@@ -1,0 +1,54 @@
+.PlanCard{
+    position: relative;
+    background-color: #fff;
+    width: 90%;
+}
+.PlanCard-top{
+    position: absolute;
+    width: 322.48px;
+    height: 96px;
+    left: 15px;
+    top: -74px;
+
+    background: #334E96;
+    border-radius: 3px;
+    padding: 10px 0 0 10px;
+    color: #fff;
+}
+.PlanCard-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.PlanCard .fa-ul{
+    padding:  50px 0 80px  15px;
+}
+.PlanCard .fa-ul li{
+    padding:  10px 4px;
+}
+.PlanCard .plans-arrow{
+    position: absolute;
+    width: 40px;
+    height: 43px;
+    bottom: 20px;
+    right: 20px;
+    background: #334E96;
+    border: 1px solid #334E96;
+    box-sizing: border-box;
+    border-radius: 3px;
+    /* transform: matrix(0.02, -1, 1, 0.01, 0, 0); */
+    margin: 20px  0 0 0;
+    color: #fff;
+}
+.PlanCard .plans-arrow:hover{
+    position: absolute;
+    width: 40px;
+    height: 43px;
+    bottom: 20px;
+    right: 20px;
+    background: #FF7A53;
+    border: 1px solid #FF7A53;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 20px  0 0 0;
+    color: #fff;
+}

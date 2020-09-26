@@ -1,0 +1,123 @@
+.space-dashbbord-box{
+    padding: 6vw 0 30px 18vw;
+    background: linear-gradient(0deg, #e5e7f0, #F5F6FA), #FFFFFF;
+    border-radius: 30px 0px 0px 30px;
+    min-height: 100vh;
+    width: 100%;
+    height: auto;
+}
+.unupdated-profile-plan-profile{
+    width: 90%;
+    height: 207px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+.unupdated-profile-plan-profile h1{
+    font-family: Franklin Gothic Demi;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    color: #667AB0;
+}
+.unupdated-profile-plan-profile span{
+    font-family: Franklin Gothic Demi;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #667AB0;
+}
+.unupdated-profile-plan-profile-1{
+    padding: 50px 0 0 40px;
+}
+.unupdated-profile-plan-profile img{
+    width: 90%;
+    height: 80%;
+    padding:  30px 0 0 0;
+}
+.unupdated-profile-plan-2{
+    width: 90%;
+    height: 800px;
+    background-color: #fff;
+    margin:  0 0 50px 50px ;
+    padding: 0 100px 0  100px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+.unupdated-profile-plan-2 form > button{
+    position: absolute;
+    bottom:40px;
+    right: 100px;
+}
+.unupdated-profile-plan-upload{
+    width: 604px;
+    height: 268px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    position: relative;
+    margin: 0 0 0 250px ;
+    text-align: center;
+}
+.unupdated-profile-plan-upload span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #766F6F;
+}
+.unupdated-profile-plan-upload i {
+    width: 95px;
+    height: 64px;
+    color: #E5E5E5;
+    padding: 20px 0 30px 0%;
+    font-size: 100px;
+}
+.unupdated-profile-plan-upload button{
+    position: absolute;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    bottom: 5px;
+    right: 40px;
+}
+.update-dot-direction{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1px;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+.update-dot-direction-active{
+    width: 15px;
+    height: 15px;
+    background: #334E96;
+    border-radius: 100%;
+}
+.update-dot-direction-unactive{
+    width: 15px;
+    height: 15px;
+    background: #E5E5E5;
+    border-radius: 100%;
+}
+.identity-btns button{
+   margin: 0 20px 0 20px;
+}

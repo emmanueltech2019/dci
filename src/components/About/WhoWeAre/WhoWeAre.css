@@ -1,0 +1,33 @@
+.WhoWeAre{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.WhoWeAre-1 img{
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    left: 50px;
+    top: 55vh;
+}
+.WhoWeAre-2{
+    padding: 50px 50px 0 70px;
+}
+.WhoWeAre-2 h1{
+    padding: 20px 10px;
+    color: #1c263f;
+    font-family: "Heebo", Sans-serif;
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    line-height: 1.1em;
+}
+.WhoWeAre-2-text p{
+    padding: 20px 0 0 0;
+    color: #1c263f;
+    font-family: "Heebo", Sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    z-index: 1;
+}

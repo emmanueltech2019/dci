@@ -1,0 +1,86 @@
+.Investment-section{
+    display: grid;
+    grid-template-columns: 49.5% 51.5%;
+}
+.Investment-section-2{
+    background-color: #dfeaf1;
+    height: 120vh;
+    display: grid;
+    /* width: 100%; */
+    grid-template-columns: repeat(2,40%);
+    grid-gap: 2em;
+    /* grid-column-gap: 1em; */
+    padding: 70px 0 0 50px;
+    /* margin:  100px    0 0 0; */
+}
+.Investment-section-2 div{
+    background-color: #fff;
+    height: 240px;
+    width: 280px;
+    /* margin: 10px 30px 20px 80px; */
+}
+.Investment-section-2 div img{
+    width: 140px;
+    height: 140px;
+    margin: 30px 20px 20px 60px;
+    transition-duration: 0.3s;
+}
+@keyframes elementor-animation-bob {
+    0% {
+        transform: translateY(-8px)
+    }
+    50% {
+        transform: translateY(-4px)
+    }
+    100% {
+        transform: translateY(-8px)
+    }
+}
+@keyframes elementor-animation-bob-float {
+    100% {
+        transform: translateY(-8px)
+    }
+}
+.Investment-section-2 div img:hover{
+    animation-name: elementor-animation-bob-float,elementor-animation-bob;
+    animation-duration: .3s,1.5s;
+    animation-delay: 0s,.3s;
+    animation-timing-function: ease-out,ease-in-out;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards;
+    animation-direction: normal,alternate;
+}
+.Investment-section-2 div h2{
+    color: #334e96;
+    font-family: "Heebo", Sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+}
+.Investment-section-1{
+    padding: 300px 0 0 100px;
+}
+.Investment-section-1 h1{
+    color: #1c263f;
+    font-family: "Heebo", Sans-serif;
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    line-height: 20px;
+    padding: 10px 0;
+}
+.Investment-section-1 h2{
+    color: #334e96;
+    font-family: "IBM Plex Sans Condensed", Sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.3em;
+    padding: 10px 0;
+}
+.Investment-section-1 p{
+    color: #1c263f;
+    font-family: "Heebo", Sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}

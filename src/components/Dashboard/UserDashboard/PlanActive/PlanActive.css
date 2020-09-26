@@ -1,0 +1,339 @@
+.investment-plat-active-page{
+    
+}
+.investment-plat-active-page .dashboard-user-1{
+    height: 250px!important;
+}
+.investment-plat-active-page-1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 95%;
+    margin: 0  auto;
+    grid-gap:10px;
+}
+.investment-plat-active-page-1-1{
+    width: 100%;
+    height: 190px;
+    background: #FFFFFF;
+    border: 1px solid #E5E4E2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+.investment-plat-active-page-1-2{
+    width: 100%;
+    height: 190px;
+    background: #FFFFFF;
+    border: 1px solid #E5E4E2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+.investment-plat-active-page-1-3{
+    width: 100%;
+    height: 190px;
+    background: #FFFFFF;
+    border: 1px solid #E5E4E2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+.investment-plat-active-page-1-4{
+    width: 100%;
+    height: 190px;
+    background: #FFFFFF;
+    border: 1px solid #E5E4E2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+.investment-plat-active-page-1-5{
+    width: 100%;
+    height: 190px;
+    background: #FFFFFF;
+    border: 1px solid #E5E4E2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+.investment-plat-active-page-1-1-color{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 35px;
+    background: #00C689;
+    border-radius: 100%;
+}
+.investment-plat-active-page-1-1-text{
+    position: absolute;
+    width: 213.03px;
+    height: 13px;
+    left: 35px;
+    top: 12px;
+    font-family: Tw Cen MT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    color: #727171;
+}
+.investment-plat-active-page-1-1-text-price{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 75px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #766F6F;
+
+}
+.investment-plat-active-page-1-2-color{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 35px;
+    background: #295FA6;
+    border-radius: 100%;
+}
+.investment-plat-active-page-1-2-text{
+    position: absolute;
+    width: 213.03px;
+    height: 13px;
+    left: 35px;
+    top: 12px;
+    font-family: Tw Cen MT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    color: #727171;
+}
+.investment-plat-active-page-1-2-text-price{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 75px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #766F6F;
+
+}
+.investment-plat-active-page-1-3-color{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 35px;
+    background: #BF0413;
+    border-radius: 100%;
+}
+.investment-plat-active-page-1-3-text{
+    position: absolute;
+    width: 213.03px;
+    height: 13px;
+    left: 35px;
+    top: 12px;
+    font-family: Tw Cen MT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    color: #727171;
+}
+.investment-plat-active-page-1-3-text-price{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 75px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #766F6F;
+
+}
+
+
+
+
+
+
+
+.investment-plat-active-page-1-4-color{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 35px;
+    background: #FDA109;
+    border-radius: 100%;
+}
+.investment-plat-active-page-1-4-text{
+    position: absolute;
+    width: 213.03px;
+    height: 13px;
+    left: 35px;
+    top: 12px;
+    font-family: Tw Cen MT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    color: #727171;
+}
+.investment-plat-active-page-1-4-text-price{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 75px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #766F6F;
+
+}
+
+
+
+
+
+
+
+
+
+
+.investment-plat-active-page-1-5-color{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 35px;
+    background: #02F0FF;
+    border-radius: 100%;
+}
+.investment-plat-active-page-1-5-text{
+    position: absolute;
+    width: 213.03px;
+    height: 13px;
+    left: 35px;
+    top: 12px;
+    font-family: Tw Cen MT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    color: #727171;
+}
+.investment-plat-active-page-1-5-text-price{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 75px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #766F6F;
+
+}
+
+
+.investment-plat-active-page-1-chart{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.investment-plat-active-page-1 img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+.investment-plat-active-page-2{
+    width: 95%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    grid-gap: 2em;
+    margin: auto;
+    padding:  50px 0 50px 0;
+}
+.investment-plat-active-page-2-transaction{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+.investment-plat-active-page-2-chart{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    padding: 20px 0 0 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.investment-plat-active-page-2-chart-1 h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #334E96;
+    padding: 50px  0 0 0;
+}
+.investment-plat-active-page-2-chart-1 span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #295FA6;
+
+}
+.investment-plat-active-page-2-transaction-header h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    color: #727171;
+}
+.investment-plat-active-page-2-transaction-header{
+    padding: 15px;
+    position: relative;
+}
+.investment-plat-active-page-2-transaction-header button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #334E96;
+    color: #fff;
+    padding: 5px 15px;
+}

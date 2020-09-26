@@ -1,0 +1,61 @@
+.Transfer-box{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 4px 5px rgba(0, 0, 0, 0.25);
+    width: 661px;
+    height: 396px;
+    margin: 30px auto;
+    position: relative;
+    
+    /* border-top: 1px solid #A29F9F; */
+
+}
+.container-pay-box{
+    padding: 0 50px;
+}
+.Transfer-box .payment-box-header > div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #727171;
+}
+.payment-box-header span{
+    color:rgb(122, 184, 241);
+
+}
+.payment-box-header h4{
+    width: 111px;
+    height: 21px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #848383;
+
+}
+.Transfer-box table{
+    margin:  70px 30px 0 0;
+    padding:  0 30px 0  30px!important;
+}
+.uploadproof-btn-link{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    display: inline-flex;
+}
+.uploadproof-btn-link button{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #727171;
+    margin: 0 0 0 20px;
+}
+.uploadproof-btn-link button:last-child{
+    width: 124px;
+    height: 54px;
+    background: #FC4949;
+    border-radius: 5px;
+    color: #fff;
+}
